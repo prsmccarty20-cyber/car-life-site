@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers の設定。npm run build で作った _site フォルダをそのまま公開する
+  "name": "car-life-site",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./_site"
+  }
+}
