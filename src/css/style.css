@@ -56,6 +56,14 @@ table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto
 th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
 th { background: var(--soft); }
 
+.formula {
+  background: var(--soft);
+  border-radius: 6px;
+  padding: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
 .sources { font-size: 0.9rem; }
 
 .site-footer {
