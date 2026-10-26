@@ -1,0 +1,10 @@
+<svg class="logo-mark" viewBox="0 0 82 64" role="img" aria-label="KDR" xmlns="http://www.w3.org/2000/svg">
+  <g transform="skewX(-10) translate(6 0)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="currentColor" stroke-width="5">
+      <path d="M8 18V46M24 18L8 34M14 28L25 46"/>
+      <path d="M32 18V46H38A12 14 0 0 0 38 18Z"/>
+      <path d="M58 46V18H66A8 7 0 0 1 66 32H58M65 32L74 46"/>
+    </g>
+    <path d="M10 56H40" stroke="var(--accent, #1E5BD6)" stroke-width="4"/>
+  </g>
+</svg>

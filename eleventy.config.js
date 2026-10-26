@@ -1,5 +1,7 @@
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/favicon.svg");
 
   // 記事一覧（新しい順）
   eleventyConfig.addCollection("articles", (api) =>

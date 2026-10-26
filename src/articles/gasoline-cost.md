@@ -25,6 +25,8 @@ sources:
 
 100km走る、燃費が15km/L、ガソリンが1L 170円の場合です。
 
+<figure class="figure"><img src="/img/gasoline-formula.svg" alt="走った距離100kmを燃費15km/Lで割ると約6.67L。それに1L 170円を掛けると、ガソリン代は約1,133円" width="360" height="276"></figure>
+
 1. 使うガソリンの量：100km ÷ 15km/L ＝ 約6.67L
 2. ガソリン代：6.67L × 170円 ＝ **約1,133円**
 

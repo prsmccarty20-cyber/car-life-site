@@ -1,5 +1,8 @@
 {
   "name": "クルマの維持費ノート（仮）",
   "description": "車の維持費・ガソリン代・カー用品を、初心者向けに分かりやすく整理するサイトです。",
-  "author": "Kudari"
+  "author": "Kudari",
+  "category": "クルマ",
+  "accent": "#1E5BD6",
+  "accentDark": "#143F99"
 }

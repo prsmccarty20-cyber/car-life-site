@@ -2,12 +2,16 @@
 layout: base.njk
 ---
 <article>
-  {% if hasAds %}<p class="pr-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
-  <h1>{{ title }}</h1>
+  <header class="eyecatch">
+    <p class="label">{{ site.category }}</p>
+    <h1>{{ title }}</h1>
+    <div class="eyecatch-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</div>
+  </header>
   <p class="meta">
     公開：{{ page.date | jpDate }}
     {% if updated %}／ 更新：{{ updated | jpDate }}{% endif %}
   </p>
+  {% if hasAds %}<p class="pr-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
 
   {{ content | safe }}
 

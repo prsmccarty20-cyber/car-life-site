@@ -1,10 +1,12 @@
+/* 3サイト共通のデザイン。サイトごとの色（--accent）は site.json で決める */
 :root {
-  --text: #222;
-  --muted: #666;
-  --accent: #1f6feb;
-  --bg: #fff;
-  --soft: #f4f6f8;
-  --line: #e2e5e9;
+  --accent: #1E5BD6;
+  --accent-dark: #143F99;
+  --text: #1A1F2B;
+  --muted: #5B6474;
+  --bg: #FFFFFF;
+  --soft: #F3F5F8;
+  --line: #E3E7EE;
 }
 
 * { box-sizing: border-box; }
@@ -14,31 +16,112 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
-  line-height: 1.8;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
 }
 
 a { color: var(--accent); }
 
+/* ヘッダー */
 .site-header {
   border-bottom: 1px solid var(--line);
-  padding: 12px 16px;
+  padding: 10px 16px;
 }
-.site-name {
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 720px;
+  margin: 0 auto;
   color: var(--text);
-  font-weight: 700;
   text-decoration: none;
 }
+.brand .logo-mark { width: 52px; height: auto; flex-shrink: 0; }
+.brand-name { font-weight: 700; font-size: 0.95rem; line-height: 1.4; }
 
 .container {
   max-width: 720px;
   margin: 0 auto;
-  padding: 24px 16px 48px;
+  padding: 24px 16px 56px;
 }
 
-h1 { font-size: 1.6rem; line-height: 1.4; }
-h2 { font-size: 1.25rem; margin-top: 2em; border-left: 4px solid var(--accent); padding-left: 8px; }
+h1 { font-size: 1.6rem; line-height: 1.45; }
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 2.4em;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--line);
+  position: relative;
+}
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 48px;
+  height: 2px;
+  background: var(--accent);
+}
+h3 { font-size: 1.05rem; margin-top: 1.8em; }
+
+.label {
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
 
 .meta { color: var(--muted); font-size: 0.85rem; }
+
+/* トップページ */
+.hero { padding: 8px 0 4px; }
+.hero .label { background: var(--soft); color: var(--accent); }
+.hero h1 { margin: 0 0 8px; }
+.hero p { color: var(--muted); margin: 0; }
+
+.section-title { margin-top: 2em; }
+
+.card-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.card a {
+  display: block;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.card a:hover { box-shadow: 0 4px 14px rgba(26, 31, 43, 0.08); }
+.card-title { display: block; font-weight: 700; line-height: 1.5; }
+.card-desc { display: block; margin-top: 4px; color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
+.card .meta { display: block; margin-top: 6px; }
+
+/* 記事のアイキャッチ */
+.eyecatch {
+  position: relative;
+  overflow: hidden;
+  padding: 28px 20px 32px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: #FFFFFF;
+}
+.eyecatch .label { background: rgba(255, 255, 255, 0.18); color: #FFFFFF; }
+.eyecatch h1 { position: relative; margin: 0; font-size: 1.45rem; }
+.eyecatch-logo {
+  position: absolute;
+  right: -6px;
+  bottom: -14px;
+  width: 120px;
+  color: #FFFFFF;
+  opacity: 0.16;
+  --accent: #FFFFFF;
+}
+.eyecatch-logo .logo-mark { width: 100%; height: auto; }
 
 .pr-notice {
   background: var(--soft);
@@ -48,29 +131,32 @@ h2 { font-size: 1.25rem; margin-top: 2em; border-left: 4px solid var(--accent); 
   color: var(--muted);
 }
 
-.article-list { list-style: none; padding: 0; }
-.article-list li { padding: 12px 0; border-bottom: 1px solid var(--line); }
-.article-list a { display: block; font-weight: 600; }
-
-table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
-th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
-th { background: var(--soft); }
-
 .formula {
   background: var(--soft);
+  border-left: 4px solid var(--accent);
   border-radius: 6px;
   padding: 12px;
   font-weight: 700;
   text-align: center;
 }
 
+.figure { margin: 1.5em 0; text-align: center; }
+.figure img { width: 100%; max-width: 360px; height: auto; }
+
+table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; white-space: nowrap; }
+th { background: var(--soft); }
+
 .sources { font-size: 0.9rem; }
 
+/* フッター */
 .site-footer {
   border-top: 1px solid var(--line);
-  padding: 16px;
+  padding: 24px 16px;
   text-align: center;
   font-size: 0.85rem;
   color: var(--muted);
 }
+.footer-logo { display: inline-block; color: var(--text); }
+.footer-logo .logo-mark { width: 44px; height: auto; }
 .site-footer nav a { margin: 0 8px; }

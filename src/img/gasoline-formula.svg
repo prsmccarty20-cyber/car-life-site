@@ -1,0 +1,25 @@
+<svg viewBox="0 0 360 276" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Hiragino Sans', 'Yu Gothic UI', Meiryo, sans-serif" text-anchor="middle">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#5B6474"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="8" width="280" height="58" rx="10" fill="#F3F5F8" stroke="#E3E7EE"/>
+  <text x="180" y="33" font-size="15" font-weight="700" fill="#1A1F2B">走った距離</text>
+  <text x="180" y="54" font-size="13" fill="#5B6474">例：100km</text>
+
+  <line x1="70" y1="70" x2="70" y2="100" stroke="#5B6474" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="88" y="90" font-size="14" font-weight="700" fill="#1E5BD6" text-anchor="start">÷ 燃費（例：15km/L）</text>
+
+  <rect x="40" y="106" width="280" height="58" rx="10" fill="#F3F5F8" stroke="#E3E7EE"/>
+  <text x="180" y="131" font-size="15" font-weight="700" fill="#1A1F2B">使うガソリンの量</text>
+  <text x="180" y="152" font-size="13" fill="#5B6474">約6.67L</text>
+
+  <line x1="70" y1="168" x2="70" y2="198" stroke="#5B6474" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="88" y="188" font-size="14" font-weight="700" fill="#1E5BD6" text-anchor="start">× 1Lの値段（例：170円）</text>
+
+  <rect x="40" y="204" width="280" height="64" rx="10" fill="#1E5BD6"/>
+  <text x="180" y="230" font-size="15" font-weight="700" fill="#FFFFFF">ガソリン代</text>
+  <text x="180" y="255" font-size="17" font-weight="700" fill="#FFFFFF">約1,133円</text>
+</svg>

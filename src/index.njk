@@ -1,18 +1,22 @@
 ---
 layout: base.njk
 ---
-<section class="intro">
+<section class="hero">
+  <p class="label">{{ site.category }}</p>
   <h1>{{ site.name }}</h1>
   <p>{{ site.description }}</p>
 </section>
 
-<h2>新しい記事</h2>
+<h2 class="section-title">新しい記事</h2>
 {% if collections.articles.length %}
-<ul class="article-list">
+<ul class="card-list">
   {% for a in collections.articles %}
-  <li>
-    <a href="{{ a.url }}">{{ a.data.title }}</a>
-    <span class="meta">{{ a.date | jpDate }}</span>
+  <li class="card">
+    <a href="{{ a.url }}">
+      <span class="card-title">{{ a.data.title }}</span>
+      {% if a.data.description %}<span class="card-desc">{{ a.data.description }}</span>{% endif %}
+      <span class="meta">{{ a.date | jpDate }}</span>
+    </a>
   </li>
   {% endfor %}
 </ul>
