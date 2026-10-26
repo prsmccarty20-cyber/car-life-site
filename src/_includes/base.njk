@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="/">{{ site.name }}</a>
+  </header>
+  <main class="container">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <nav>
+      <a href="/">トップ</a>
+      <a href="/about/">運営者情報・広告について</a>
+    </nav>
+    <p>&copy; {{ site.author }}</p>
+  </footer>
+</body>
+</html>

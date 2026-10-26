@@ -1,0 +1,24 @@
+---
+layout: base.njk
+---
+<article>
+  {% if hasAds %}<p class="pr-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
+  <h1>{{ title }}</h1>
+  <p class="meta">
+    公開：{{ page.date | jpDate }}
+    {% if updated %}／ 更新：{{ updated | jpDate }}{% endif %}
+  </p>
+
+  {{ content | safe }}
+
+  {% if sources %}
+  <section class="sources">
+    <h2>参考にした情報</h2>
+    <ul>
+      {% for s in sources %}
+      <li><a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>（{{ s.checked }} 確認）</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>

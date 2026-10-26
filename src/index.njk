@@ -1,0 +1,21 @@
+---
+layout: base.njk
+---
+<section class="intro">
+  <h1>{{ site.name }}</h1>
+  <p>{{ site.description }}</p>
+</section>
+
+<h2>新しい記事</h2>
+{% if collections.articles.length %}
+<ul class="article-list">
+  {% for a in collections.articles %}
+  <li>
+    <a href="{{ a.url }}">{{ a.data.title }}</a>
+    <span class="meta">{{ a.date | jpDate }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>記事は準備中です。もう少しお待ちください。</p>
+{% endif %}
