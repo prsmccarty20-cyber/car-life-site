@@ -141,7 +141,7 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
 }
 .eyecatch.has-image {
   background:
-    linear-gradient(135deg, rgba(20, 63, 153, 0.88), rgba(10, 14, 24, 0.55)),
+    linear-gradient(135deg, rgba(20, 63, 153, 0.8), rgba(10, 14, 24, 0.4)),
     var(--eyecatch-image) var(--eyecatch-pos, 65% 50%) / cover;
 }
 .eyecatch .label { background: rgba(255, 255, 255, 0.18); color: #FFFFFF; }
@@ -152,6 +152,9 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
   font-size: 1.05rem;
   font-weight: 600;
   opacity: 0.92;
+  /* 商品名の途中で改行しないように、「、」などの区切りで折り返す */
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 .eyecatch-logo {
   position: absolute;
