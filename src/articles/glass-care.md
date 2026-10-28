@@ -4,6 +4,8 @@ description: 油膜取りをキイロビン ゴールドからガラスリフレ
 date: 2026-10-27
 image: /img/rainy-windshield.jpg
 imagePosition: 35% 80%
+imageCredit: 写真：Abdulvahap Demir（Pexels）
+imageCreditUrl: https://www.pexels.com/ja-jp/@vahapdmr/
 hasAds: false
 sources:
   - name: ソフト99公式「ガラスリフレッシュ」

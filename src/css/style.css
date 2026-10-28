@@ -164,6 +164,9 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
 }
 .eyecatch-logo .logo-mark { width: 100%; height: auto; }
 
+.image-credit { margin: 6px 0 0; text-align: right; font-size: 0.75rem; color: var(--muted); }
+.image-credit a { color: var(--muted); }
+
 .pr-notice {
   background: var(--soft);
   border-radius: 6px;

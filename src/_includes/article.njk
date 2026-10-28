@@ -8,6 +8,7 @@ layout: base.njk
     <h1>{{ titleParts[0] }}{% if titleParts[1] %}<span class="subtitle">{{ titleParts[1] }}</span>{% endif %}</h1>
     <div class="eyecatch-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</div>
   </header>
+  {% if imageCredit %}<p class="image-credit">{% if imageCreditUrl %}<a href="{{ imageCreditUrl }}" rel="noopener" target="_blank">{{ imageCredit }}</a>{% else %}{{ imageCredit }}{% endif %}</p>{% endif %}
   <p class="meta">
     公開：{{ page.date | jpDate }}
     {% if updated %}／ 更新：{{ updated | jpDate }}{% endif %}
