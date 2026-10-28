@@ -3,6 +3,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/favicon.svg");
 
+  // CSSを直したとき、古いCSSが残らないようにする目印
+  eleventyConfig.addGlobalData("buildTime", Date.now());
+
   // 記事一覧（新しい順）
   eleventyConfig.addCollection("articles", (api) =>
     api.getFilteredByGlob("src/articles/*.md").sort((a, b) => b.date - a.date)

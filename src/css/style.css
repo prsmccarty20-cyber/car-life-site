@@ -112,6 +112,13 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
 }
 .eyecatch .label { background: rgba(255, 255, 255, 0.18); color: #FFFFFF; }
 .eyecatch h1 { position: relative; margin: 0; font-size: 1.45rem; }
+.eyecatch .subtitle {
+  display: block;
+  margin-top: 6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  opacity: 0.92;
+}
 .eyecatch-logo {
   position: absolute;
   right: -6px;

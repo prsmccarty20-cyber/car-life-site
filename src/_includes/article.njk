@@ -4,7 +4,8 @@ layout: base.njk
 <article>
   <header class="eyecatch">
     <p class="label">{{ site.category }}</p>
-    <h1>{{ title }}</h1>
+    {% set titleParts = title.split("｜") %}
+    <h1>{{ titleParts[0] }}{% if titleParts[1] %}<span class="subtitle">{{ titleParts[1] }}</span>{% endif %}</h1>
     <div class="eyecatch-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</div>
   </header>
   <p class="meta">
