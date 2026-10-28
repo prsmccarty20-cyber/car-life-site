@@ -2,6 +2,10 @@
 title: ガソリン代の計算方法｜燃費が分からないときと、割り勘のやり方
 description: ガソリン代は「走った距離 ÷ 燃費 × 1Lの値段」で計算できます。燃費が分からないときの調べ方、割り勘のやり方、早見表をまとめました。
 date: 2026-10-26
+image: /img/fuel-nozzle.jpg
+imagePosition: 50% 50%
+imageCredit: 写真：Dar ius（Pexels）
+imageCreditUrl: https://www.pexels.com/ja-jp/photo/28688185/
 hasAds: false
 sources:
   - name: 資源エネルギー庁「石油製品価格調査 調査の結果」
