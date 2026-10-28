@@ -116,19 +116,36 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
 
 .card-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
 .card a {
-  display: block;
-  padding: 16px;
+  display: flex;
+  gap: 14px;
+  align-items: stretch;
+  padding: 10px;
   border: 1px solid var(--line);
-  border-left: 4px solid var(--accent);
-  border-radius: 10px;
+  border-radius: 12px;
   color: var(--text);
   text-decoration: none;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
-.card a:hover { box-shadow: 0 4px 14px rgba(26, 31, 43, 0.08); }
+.card a:hover { box-shadow: 0 4px 14px rgba(26, 31, 43, 0.08); border-color: var(--accent); }
+.card-thumb {
+  flex: 0 0 108px;
+  min-height: 92px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark)) center / cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-thumb-logo { width: 56px; color: #FFFFFF; opacity: 0.85; --accent: #FFFFFF; }
+.card-thumb-logo .logo-mark { width: 100%; height: auto; }
+.card-body { display: flex; flex-direction: column; justify-content: center; min-width: 0; }
 .card-title { display: block; font-weight: 700; line-height: 1.5; }
-.card-desc { display: block; margin-top: 4px; color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
-.card .meta { display: block; margin-top: 6px; }
+.card-sub { display: block; margin-top: 2px; color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
+.card .meta { display: block; margin-top: 6px; font-size: 0.8rem; }
+@media (min-width: 640px) {
+  .card-thumb { flex-basis: 168px; min-height: 104px; }
+}
 
 /* 記事のアイキャッチ */
 .eyecatch {

@@ -14,11 +14,17 @@ layout: base.njk
 {% if collections.articles.length %}
 <ul class="card-list">
   {% for a in collections.articles %}
+  {% set parts = a.data.title.split("｜") %}
   <li class="card">
     <a href="{{ a.url }}">
-      <span class="card-title">{{ a.data.title }}</span>
-      {% if a.data.description %}<span class="card-desc">{{ a.data.description }}</span>{% endif %}
-      <span class="meta">{{ a.date | jpDate }}</span>
+      <span class="card-thumb"{% if a.data.image %} style="background-image: url('{{ a.data.image }}'); background-position: {{ a.data.imagePosition or '65% 50%' }}"{% endif %}>
+        {% if not a.data.image %}<span class="card-thumb-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</span>{% endif %}
+      </span>
+      <span class="card-body">
+        <span class="card-title">{{ parts[0] }}</span>
+        {% if parts[1] %}<span class="card-sub">{{ parts[1] }}</span>{% endif %}
+        <span class="meta">{{ a.date | jpDate }}</span>
+      </span>
     </a>
   </li>
   {% endfor %}

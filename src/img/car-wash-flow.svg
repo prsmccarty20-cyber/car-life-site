@@ -1,0 +1,31 @@
+<svg viewBox="0 0 360 312" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Hiragino Sans', 'Yu Gothic UI', Meiryo, sans-serif" text-anchor="middle">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#5B6474"/>
+    </marker>
+  </defs>
+
+  <rect x="8" y="8" width="344" height="134" rx="12" fill="#F3F5F8" stroke="#E3E7EE"/>
+  <text x="180" y="34" font-size="15" font-weight="700" fill="#1A1F2B">① ホイール（1本ずつ × 4本）</text>
+  <g font-size="13" fill="#1A1F2B">
+    <rect x="20" y="50" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="70" y="71">1 予洗い</text>
+    <rect x="130" y="50" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="180" y="71">2 鉄粉除去</text>
+    <rect x="240" y="50" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="290" y="71">3 泡</text>
+    <rect x="20" y="94" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="70" y="115">4 ブラシ</text>
+    <rect x="130" y="94" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="180" y="115">5 流す</text>
+    <rect x="240" y="94" width="100" height="32" rx="16" fill="#1E5BD6"/><text x="290" y="115" fill="#FFFFFF" font-weight="700">6 コート・拭く</text>
+  </g>
+
+  <line x1="180" y1="146" x2="180" y2="168" stroke="#5B6474" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="8" y="172" width="344" height="134" rx="12" fill="#F3F5F8" stroke="#E3E7EE"/>
+  <text x="180" y="198" font-size="15" font-weight="700" fill="#1A1F2B">② ボディ（1パネルずつ）</text>
+  <g font-size="13" fill="#1A1F2B">
+    <rect x="20" y="214" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="70" y="235">1 予洗い</text>
+    <rect x="130" y="214" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="180" y="235">2 泡とミット</text>
+    <rect x="240" y="214" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="290" y="235">3 流す</text>
+    <rect x="20" y="258" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#E3E7EE"/><text x="70" y="279">4 仕上げ</text>
+    <rect x="130" y="258" width="100" height="32" rx="16" fill="#1E5BD6"/><text x="180" y="279" fill="#FFFFFF" font-weight="700">5 拭き上げ</text>
+    <text x="290" y="279" font-size="13" font-weight="700" fill="#1E5BD6">↻ 次のパネルへ</text>
+  </g>
+</svg>
