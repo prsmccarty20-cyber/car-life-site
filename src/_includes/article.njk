@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <article>
-  <header class="eyecatch">
+  <header class="eyecatch{% if image %} has-image{% endif %}"{% if image %} style="--eyecatch-image: url('{{ image }}')"{% endif %}>
     <p class="label">{{ site.category }}</p>
     {% set titleParts = title.split("｜") %}
     <h1>{{ titleParts[0] }}{% if titleParts[1] %}<span class="subtitle">{{ titleParts[1] }}</span>{% endif %}</h1>

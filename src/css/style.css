@@ -83,6 +83,35 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
 .hero h1 { margin: 0 0 8px; }
 .hero p { color: var(--muted); margin: 0; }
 
+/* トップのメイン画像（site.json の heroImage があるとき） */
+.hero.has-image {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 14px;
+  min-height: 280px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 65% 50%;
+}
+.hero.has-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 14, 24, 0.82), rgba(10, 14, 24, 0.15) 70%);
+}
+.hero-text { position: relative; z-index: 1; padding: 20px; }
+.hero.has-image .label { background: var(--accent); color: #FFFFFF; }
+.hero.has-image p { color: rgba(255, 255, 255, 0.9); }
+
 .section-title { margin-top: 2em; }
 
 .card-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
@@ -109,6 +138,11 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
   border-radius: 14px;
   background: linear-gradient(135deg, var(--accent), var(--accent-dark));
   color: #FFFFFF;
+}
+.eyecatch.has-image {
+  background:
+    linear-gradient(135deg, rgba(20, 63, 153, 0.88), rgba(10, 14, 24, 0.55)),
+    var(--eyecatch-image) 65% 50% / cover;
 }
 .eyecatch .label { background: rgba(255, 255, 255, 0.18); color: #FFFFFF; }
 .eyecatch h1 { position: relative; margin: 0; font-size: 1.45rem; }

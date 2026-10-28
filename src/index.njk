@@ -1,10 +1,13 @@
 ---
 layout: base.njk
 ---
-<section class="hero">
-  <p class="label">{{ site.category }}</p>
-  <h1>{{ site.name }}</h1>
-  <p>{{ site.description }}</p>
+<section class="hero{% if site.heroImage %} has-image{% endif %}">
+  {% if site.heroImage %}<img class="hero-image" src="{{ site.heroImage }}" alt="" width="1600" height="1245">{% endif %}
+  <div class="hero-text">
+    <p class="label">{{ site.category }}</p>
+    <h1>{{ site.name }}</h1>
+    <p>{{ site.description }}</p>
+  </div>
 </section>
 
 <h2 class="section-title">新しい記事</h2>
