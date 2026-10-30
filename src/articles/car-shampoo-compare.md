@@ -6,7 +6,7 @@ image: /img/foam-suv.jpg
 imagePosition: 50% 50%
 imageCredit: 写真：Bulat843（Pexels）
 imageCreditUrl: https://www.pexels.com/ja-jp/photo/suv-28995189/
-hasAds: false
+hasAds: true
 sources:
   - name: シュアラスター公式「Car Shampoo 1000」
     url: https://surluster.com/products/car-shampoo-1000/
@@ -44,6 +44,23 @@ sources:
 - pH中性で、研磨剤・コンパウンドを使っていない
 - ワックスやコーティングをはがさない（コーティング車にも使える）
 - 白・メタリック・パール・マイカなど、すべての塗装に使える
+
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【人気の洗車用品】S-30 カーシャンプー1000 [1000ml] 洗車シャンプー コーティング車 シュアラスター SurLuster　シュアラスターシャンプー　S30（注）本商品は代引き支払いでの、ご注文が出来ません。","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/nsbsshop\/cabinet","p":["\/doukon\/surluster\/image_1680845396465.jpg","\/biiino\/award\/1000077b4448196c.jpg","\/doukon\/surluster\/09969880\/imgrc0087040298.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/nsbsshop\/10000779\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/nsbsshop\/10000779\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"ertQl","s":"s"});
+</script>
+<div id="msmaflink-ertQl">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
 
 ## アワアワ 2L：気にせずたっぷり使える
 

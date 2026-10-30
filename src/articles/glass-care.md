@@ -6,7 +6,7 @@ image: /img/rainy-windshield.jpg
 imagePosition: 35% 80%
 imageCredit: 写真：Abdulvahap Demir（Pexels）
 imageCreditUrl: https://www.pexels.com/ja-jp/photo/18581740/
-hasAds: false
+hasAds: true
 sources:
   - name: ソフト99公式「ガラスリフレッシュ」
     url: https://www.soft99.co.jp/products/detail/05066/
@@ -53,6 +53,23 @@ sources:
 
 手間は同じで、ウォータースポットまで取れるので、自分の目的にはぴったりでした。
 
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【ネコポス】ソフト99 ガラスリフレッシュ 【ガラスクリーナー】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/soft99\/cabinet\/thumb171025\/05066.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/soft99\/05066\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/soft99\/05066\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"pFepV","s":"s"});
+</script>
+<div id="msmaflink-pFepV">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
+
 ## 手順
 
 油膜取りは、気になったら**いつでも**やります。洗車の日にやるときは、**最初に**やります。あとで液も流れていくからです。
@@ -74,6 +91,23 @@ sources:
 - 撥水が続くのは、**自分の感覚では5か月くらい**
 
 メーカーの説明では、撥水効果は**約4か月**続くとされています（使い方や環境で短くなることもある、とも書かれています）。また、ヘッドが首を振るように動いて、ガラスの曲面に合わせて角度が変わる作りになっているそうです。
+
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"ぬりぬりガラコ DX 04957 SOFT99 ウィンドウケア オレンジ ブラック 容器 送料無料 【SK05813】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/thinkrich\/cabinet\/muryou_05\/s05813.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/thinkrich\/q04206\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/thinkrich\/q04206\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"aako8","s":"s"});
+</script>
+<div id="msmaflink-aako8">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
 
 ## 失敗談：拭き取りが甘くて、雨の日にギラギラで見えなかった
 
