@@ -3,7 +3,7 @@ title: 洗車後のコーティング剤4つを使い分け｜初心者に1本�
 description: DETAIL ARTIST ICE、レインドロップ ゴールドグロス、ビギナーズラック、CCウォーターゴールドを実際に使っています。使い道ごとの使い分けと感想、メーカーが示す撥水の持続期間と、使ってみた感覚の違いをまとめました。
 date: 2026-10-28
 image: /img/car-care-items.webp
-hasAds: false
+hasAds: true
 sources:
   - name: ソフト99公式「レインドロップ ゴールドグロス」
     url: https://www.soft99.co.jp/products/detail/00539/
@@ -47,6 +47,23 @@ sources:
 
 撥水が続くのは、自分の感覚では**ひと月くらい**です。メーカーの公式ページは見つけられなかったので、メーカーが示す持続期間は分かりません。
 
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【DETAIL ARTIST】 ICE『濡れたボディに施工できる万能ウェットコート』 車用コーティング剤 コーティング ウェットコート トップコート 艶 高撥水 光沢 スリック性 アイス ディテールアーティスト","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/","p":["@0_mall\/detail-artist\/cabinet\/12132750\/ice.jpg","@0_gold\/detail-artist\/products\/ice\/01.jpg","@0_gold\/detail-artist\/products\/ice\/02.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/detail-artist\/ice\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/detail-artist\/ice\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"IQGcH","s":"s"});
+</script>
+<div id="msmaflink-IQGcH">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
+
 ## レインドロップ ゴールドグロス：しっかり撥水
 
 ICEを使い切ったあとに買いました。こちらもいい感じで、**実際にしっかり撥水しています。**
@@ -66,6 +83,23 @@ ICEを使い切ったあとに買いました。こちらもいい感じで、**
 
 なので、7か月を期待するより、**洗車のたびに使うもの**と考えておくと、がっかりしないと思います。
 
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"ソフト99 レインドロップ ゴールドグロス 付属クロス付き soft99","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/soft99\/cabinet\/shohin03\/00539.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/soft99\/00539\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/soft99\/00539\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"lMssh","s":"s"});
+</script>
+<div id="msmaflink-lMssh">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
+
 ## ビギナーズラック：ちょっとした汚れと車内に
 
 鳥のフンなど、**洗車するほどではないけれど、部分的に汚れを落としたい**ときに使っています。車内も、**革以外ならだいたい使える**ので、出番は多いです。
@@ -78,11 +112,45 @@ ICEを使い切ったあとに買いました。こちらもいい感じで、**
 - 耐久性は、**約2週間〜1か月**
 - 内装・樹脂パーツ・液晶画面にも使えるが、**ゴムや革など、しみ込む素材には使えない**
 
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【ながら洗車】ビギナーズラック『 あっという間に終わる洗車体験を 』コーティング剤 350ml 水シミ除去 タオル付き","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/nagarasensha\/cabinet","p":["\/compass1778221848.jpg","\/51vwtopoy9l.jpg","\/51whjrw7tyl.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/nagarasensha\/4580081190686\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/nagarasensha\/4580081190686\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"zJHGd","s":"s"});
+</script>
+<div id="msmaflink-zJHGd">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
+
 ## CCウォーターゴールド：ホイール用に
 
 もともとは**ホイール用**として買いました。濡れたまま使える手軽さと、強い撥水が気に入っています。ホイールでの撥水の持続は、自分の感覚では**ひと月くらい**です（メーカーの公式ページには、持続期間の記載がありませんでした）。
 
 メーカーの公式ページでは、ボディ用のコーティング剤で、窓ガラス・ヘッドライト・ホイール・車内のダッシュボードなどにも使える、と案内されています。ホイールに使うときは、直接吹きかけるより**マイクロファイバークロスに吹きつけてから塗る**と作業しやすい、とも書かれています。
+
+{% raw %}
+<div class="item-pick">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"プロスタッフ(Prostaff) 洗車用品 ガラス系ボディーコーティング剤 CCウォーターゴールド 200ml スプレー S122","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ibuki-shop\/cabinet\/r_2026030213","p":["\/20260504102151_111_1.jpg","\/20260504102151_111_2.jpg","\/20260504102151_111_3.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ibuki-shop\/20260504102151_111\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ibuki-shop\/20260504102151_111\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"j0RtJ","s":"s"});
+</script>
+<div id="msmaflink-j0RtJ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
 
 ホイールの洗い方は、[自分で洗車するときの道具と順番](/articles/car-wash-routine/)の記事で紹介しています。
 
