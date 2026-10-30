@@ -128,7 +128,7 @@ CCウォーターゴールドはボディ用のコーティング剤ですが、
 自分が使っているのは、バケツ（らくのりバケツ）とフィルター（らくおき）の組み合わせです。
 
 {% raw %}
-<div class="affiliate-link">
+<div class="item-pick">
 <!-- START MoshimoAffiliateEasyLink -->
 <script type="text/javascript">
 (function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
@@ -156,7 +156,7 @@ msmaflink({"n":"プロスタッフ ProStaff 洗車道具セット らくのり�
 自分が使っているのは、レギュラーサイズのブルーです。
 
 {% raw %}
-<div class="affiliate-link">
+<div class="item-pick">
 <!-- START MoshimoAffiliateEasyLink -->
 <script type="text/javascript">
 (function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
