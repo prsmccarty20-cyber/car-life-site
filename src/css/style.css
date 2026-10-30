@@ -204,6 +204,8 @@ h3 { font-size: 1.05rem; margin-top: 1.8em; }
   text-align: center;
 }
 
+.affiliate-link { margin: 1.5em 0; }
+
 .figure { margin: 1.5em 0; text-align: center; }
 .figure img { width: 100%; max-width: 360px; height: auto; }
 

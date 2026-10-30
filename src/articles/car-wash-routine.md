@@ -3,7 +3,7 @@ title: 自分で洗車するときの道具と順番｜ホイールから、1パ
 description: 月1回、普通車を約2時間かけて自分で洗車しています。ホイールから先に洗い、ボディは1パネルずつ「洗う→流す→仕上げる」をくり返すやり方と、実際に使っている道具、拭き上げで傷を入れた失敗談をまとめました。
 date: 2026-10-27
 image: /img/hero-car-wash.jpg
-hasAds: false
+hasAds: true
 sources:
   - name: 乗りものニュース「クルマの『足回りの汚れ』はなぜガンコなのか!? 『上から下へ』洗車するより“先に洗え”のワケ」
     url: https://trafficnews.jp/post/130789
@@ -61,7 +61,7 @@ sources:
 | 細かい部分を洗う | CRUZARD 洗車用ディテールブラシ 5本セット |
 | バケツ | プロスタッフ らくのりバケツ ＋ フィルター「らくおき」 |
 | ガラスの水切り | CRUZARD 水切りワイパー |
-| 拭き上げ | アイオン プラセーヌ／マイクロファイバーのクロス（100円ショップのもの） |
+| 拭き上げ | アイオン プラスセーヌ／マイクロファイバーのクロス（100円ショップのもの） |
 
 ここからは、順番にくわしく書いていきます。
 
@@ -125,12 +125,31 @@ CCウォーターゴールドはボディ用のコーティング剤ですが、
 
 フィルターは「らくおき」でなくても、同じように砂を沈められるものなら良いと思います。
 
+自分が使っているのは、バケツ（らくのりバケツ）とフィルター（らくおき）の組み合わせです。
+
+{% raw %}
+<div class="affiliate-link">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"プロスタッフ ProStaff 洗車道具セット らくのりバケツ らくおき砂落とし 2点セット 乗れるバケツ 洗車用バケツ P-29\/P198","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/asg\/cabinet\/item","p":["\/main02\/set1413991_2410-main.jpg","\/sub01\/set1413991_2410-s1.jpg","\/sub02\/set1413991_2410-s2.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/asg\/rt-set1413991-2410-10001\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/asg\/rt-set1413991-2410-10001\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"2YOER","s":"s"});
+</script>
+<div id="msmaflink-2YOER">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
+
 ## ⑥ 拭き上げは、こすらず「当てて吸わせる」
 
 - **水切りワイパー**：ガラスの水を切るのに使います
-- **プラセーヌ**：ボディにベタッとくっつけるように当てて、水を吸い取ります
+- **プラスセーヌ**：ボディにベタッとくっつけるように当てて、水を吸い取ります
 
-ここは失敗談があります。プラセーヌを初めて使ったとき、タオルのようにゴシゴシこすって拭いてしまい、**かなり傷を入れてしまいました。**
+ここは失敗談があります。プラスセーヌを初めて使ったとき、タオルのようにゴシゴシこすって拭いてしまい、**かなり傷を入れてしまいました。**
 
 それからは、**こすらずに、当てて水を吸わせる**使い方にしています。これから使う人には、いちばん伝えたいポイントです。
 
