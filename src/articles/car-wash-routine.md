@@ -153,6 +153,25 @@ msmaflink({"n":"プロスタッフ ProStaff 洗車道具セット らくのり�
 
 それからは、**こすらずに、当てて水を吸わせる**使い方にしています。これから使う人には、いちばん伝えたいポイントです。
 
+自分が使っているのは、レギュラーサイズのブルーです。
+
+{% raw %}
+<div class="affiliate-link">
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"アイオン AION プラスセーヌ レギュラーサイズ ブルー 430×325 (1枚) R302-B","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kougland33\/cabinet","p":["\/trusco2026main\/2026trusco_main169\/ts_3853608.jpg","\/trusco2026sub\/2026trusco_sub253\/ts_3853608_1.jpg","\/note\/note02.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kougland33\/ts_3853608\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kougland33\/ts_3853608\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"SLmgx","s":"s"});
+</script>
+<div id="msmaflink-SLmgx">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+</div>
+{% endraw %}
+
 ## 調べて分かったこと
 
 自分のやり方が合っているか気になったので、調べてみました。
