@@ -13,7 +13,7 @@ layout: base.njk
     公開：{{ page.date | jpDate }}
     {% if updated %}／ 更新：{{ updated | jpDate }}{% endif %}
   </p>
-  {% if hasAds %}<p class="pr-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
+  {% if hasAds %}<p class="link-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
 
   {{ content | safe }}
 
