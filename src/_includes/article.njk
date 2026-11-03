@@ -22,7 +22,7 @@ layout: base.njk
     <h2>参考にした情報</h2>
     <ul>
       {% for s in sources %}
-      <li><a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>（{{ s.checked }} 確認）</li>
+      <li><a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>（{{ s.checked | jpDate }} 確認）</li>
       {% endfor %}
     </ul>
   </section>
