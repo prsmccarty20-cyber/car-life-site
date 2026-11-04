@@ -226,3 +226,14 @@ th { background: var(--soft); }
 .footer-logo { display: inline-block; color: var(--text); }
 .footer-logo .logo-mark { width: 44px; height: auto; }
 .site-footer nav a { margin: 0 8px; }
+/* 本文は言葉の切れ目で改行する（<wbr>はサイトを作るときに入る） */
+article p, article li, article td, article th, article h2, article h3 {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.model { white-space: nowrap; }
+.pick-mark {
+  background: linear-gradient(transparent 55%, #fff27a 55%);
+  color: inherit;
+  font-weight: 700;
+}
