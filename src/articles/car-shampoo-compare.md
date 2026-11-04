@@ -45,6 +45,8 @@ sources:
 - ワックスやコーティングをはがさない（コーティング車にも使える）
 - 白・メタリック・パール・マイカなど、すべての塗装に使える
 
+<mark class="pick-mark">迷ったらこれ。素人の中の王道の正解で、これを買えば間違いない、という感じです。</mark>
+
 {% raw %}
 <div class="item-pick">
 <!-- START MoshimoAffiliateEasyLink -->
