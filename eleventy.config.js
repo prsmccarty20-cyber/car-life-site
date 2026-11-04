@@ -10,6 +10,8 @@ const addBreaks = (text) =>
       : parser
           .parse(part)
           .join("<wbr>")
+          // 2026 のような数字も、途中で改行しない
+          .replace(/(\d)<wbr>(?=\d)/g, "$1")
           // RV-6 や MS-50G+ などの型番は、途中で改行しない
           .replace(/[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+\+?/g, '<span class="model">$&</span>')
   );
