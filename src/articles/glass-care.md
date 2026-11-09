@@ -2,6 +2,12 @@
 title: フロントガラスの油膜・ウォータースポット取りと撥水｜キイロビンからガラスリフレッシュに替えた理由
 description: 油膜取りをキイロビン ゴールドからガラスリフレッシュに替え、仕上げにぬりぬりガラコDXを使っています。実際の手順と感想、拭き取りが甘くて雨の日にギラギラになった失敗談をまとめました。
 date: 2026-10-27
+cardTag: ガラス Glass
+cardSpecs:
+  - label: 油膜取り
+    value: ガラスリフレッシュ
+  - label: 撥水のもち
+    value: 自分の感覚で5か月くらい
 image: /img/rainy-windshield.jpg
 imagePosition: 35% 80%
 imageCredit: 写真：Abdulvahap Demir（Pexels）

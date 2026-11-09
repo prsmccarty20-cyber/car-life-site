@@ -2,6 +2,12 @@
 title: 自分で洗車するときの道具と順番｜ホイールから、1パネルずつ洗っています
 description: 月1回、普通車を約2時間かけて自分で洗車しています。ホイールから先に洗い、ボディは1パネルずつ「洗う→流す→仕上げる」をくり返すやり方と、実際に使っている道具、拭き上げで傷を入れた失敗談をまとめました。
 date: 2026-10-27
+cardTag: 洗車 Wash
+cardSpecs:
+  - label: 頻度
+    value: 月1回くらい
+  - label: かかる時間
+    value: 普通車で約2時間
 image: /img/hero-car-wash.jpg
 hasAds: true
 sources:

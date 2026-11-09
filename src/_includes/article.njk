@@ -2,29 +2,32 @@
 layout: base.njk
 ---
 <article>
-  <header class="eyecatch{% if image %} has-image{% endif %}"{% if image %} style="--eyecatch-image: url('{{ image }}'); --eyecatch-pos: {{ imagePosition or '65% 50%' }}"{% endif %}>
-    <p class="label">{{ site.category }}</p>
-    {% set titleParts = title.split("｜") %}
-    <h1>{{ titleParts[0] }}{% if titleParts[1] %}<span class="subtitle">{{ titleParts[1] }}</span>{% endif %}</h1>
-    <div class="eyecatch-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</div>
+  <header class="article-head">
+    <div class="article-head-inner">
+      {% if cardTag %}<span class="note-tag">{{ cardTag }}</span>{% endif %}
+      {% set titleParts = title.split("｜") %}
+      <h1>{{ titleParts[0] | phrase | safe }}{% if titleParts[1] %}<span class="article-sub">{{ titleParts[1] | phrase | safe }}</span>{% endif %}</h1>
+      <p class="article-date">公開 {{ page.date | dotDate }}{% if updated %} ／ 更新 {{ updated | dotDate }}{% endif %}</p>
+      {% if image %}<img class="article-photo" src="{{ image }}" alt="" width="1200" height="800" style="object-position: {{ imagePosition or '50% 50%' }}">{% endif %}
+    </div>
   </header>
-  {% if imageCredit %}<p class="image-credit">{% if imageCreditUrl %}<a href="{{ imageCreditUrl }}" rel="noopener" target="_blank">{{ imageCredit }}</a>{% else %}{{ imageCredit }}{% endif %}</p>{% endif %}
-  <p class="meta">
-    公開：{{ page.date | jpDate }}
-    {% if updated %}／ 更新：{{ updated | jpDate }}{% endif %}
-  </p>
-  {% if hasAds %}<p class="link-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
+  <div class="article-main">
+    {% if imageCredit %}<p class="image-credit">{% if imageCreditUrl %}<a href="{{ imageCreditUrl }}" rel="noopener" target="_blank">{{ imageCredit }}</a>{% else %}{{ imageCredit }}{% endif %}</p>{% endif %}
+    {% if hasAds %}<p class="link-notice">この記事には広告（アフィリエイトリンク）が含まれます。</p>{% endif %}
 
-  {{ content | safe }}
+    <div class="prose">
+    {{ content | safe }}
+    </div>
 
-  {% if sources %}
-  <section class="sources">
-    <h2>参考にした情報</h2>
-    <ul>
-      {% for s in sources %}
-      <li><a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>（{{ s.checked | jpDate }} 確認）</li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
+    {% if sources %}
+    <section class="sources">
+      <h2>参考にした情報</h2>
+      <ul>
+        {% for s in sources %}
+        <li><a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>（{{ s.checked | jpDate }} 確認）</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
 </article>

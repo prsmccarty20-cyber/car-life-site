@@ -1,14 +1,9 @@
 ---
-layout: base.njk
+layout: page.njk
+image: /img/cleaning-bucket.jpg
 title: 運営者情報・広告について
 permalink: /about/
 ---
-<header class="eyecatch has-image" style="--eyecatch-image: url('/img/car-care-items.webp'); --eyecatch-pos: 50% 50%">
-  <p class="label">{{ site.category }}</p>
-  <h1>運営者情報・広告について</h1>
-  <div class="eyecatch-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</div>
-</header>
-
 ## 運営者
 {{ site.author }}
 

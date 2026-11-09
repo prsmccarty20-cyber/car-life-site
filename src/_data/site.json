@@ -3,7 +3,14 @@
   "description": "車の維持費・ガソリン代・カー用品を、初心者向けに分かりやすく整理するサイトです。",
   "author": "Kudari",
   "category": "クルマ",
-  "accent": "#1E5BD6",
-  "accentDark": "#143F99",
-  "heroImage": "/img/hero-car-wash.jpg"
+  "accent": "#0A5A6B",
+  "accentDark": "#11322D",
+  "heroImage": "/img/hero-car-wash.jpg",
+  "indexWords": [
+    { "en": "Wash", "ja": "洗車の道具と順番", "url": "/articles/car-wash-routine/" },
+    { "en": "Shampoo", "ja": "カーシャンプーの使い比べ", "url": "/articles/car-shampoo-compare/" },
+    { "en": "Coating", "ja": "洗車後のコーティング剤", "url": "/articles/coating-compare/" },
+    { "en": "Glass", "ja": "ガラスの油膜取りと撥水", "url": "/articles/glass-care/" },
+    { "en": "Fuel", "ja": "ガソリン代の計算", "url": "/articles/gasoline-cost/" }
+  ]
 }

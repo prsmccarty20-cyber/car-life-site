@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+<header class="article-head">
+  <div class="article-head-inner">
+    <h1>{{ title }}</h1>
+    {% if image %}<img class="article-photo" style="margin-top: 18px" src="{{ image }}" alt="" width="1200" height="800">{% endif %}
+  </div>
+</header>
+<div class="article-main prose">
+  {{ content | safe }}
+</div>

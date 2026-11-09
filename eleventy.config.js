@@ -63,6 +63,17 @@ export default function (eleventyConfig) {
     return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
   });
 
+  // 日付を「2026.10.26」の形にする（デザイン用）
+  eleventyConfig.addFilter("dotDate", (value) => {
+    const d = new Date(value);
+    return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+  });
+
+  // 題名だけに言葉の切れ目を入れる（本文の処理とは別）
+  eleventyConfig.addFilter("phrase", (value) =>
+    addBreaks(String(value)).replace(/使い<wbr>(比べ|分け)/g, "使い$1")
+  );
+
   return {
     dir: { input: "src", output: "_site" },
     markdownTemplateEngine: "njk",

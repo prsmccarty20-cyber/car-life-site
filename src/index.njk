@@ -1,34 +1,63 @@
 ---
 layout: base.njk
 ---
-<section class="hero{% if site.heroImage %} has-image{% endif %}">
-  {% if site.heroImage %}<img class="hero-image" src="{{ site.heroImage }}" alt="" width="1600" height="1245">{% endif %}
-  <div class="hero-text">
-    <p class="label">{{ site.category }}</p>
-    <h1>{{ site.name }}</h1>
-    <p>{{ site.description }}</p>
+{% set newest = collections.articles[0] %}
+<section class="main-visual"><div class="main-visual-inner">
+  <div class="main-visual-text">
+    <h1><span class="hero-name" lang="en">Car<br>Note</span><span class="hero-ja">{{ site.name }}</span></h1>
+    <p class="hero-lead">{{ site.description }}</p>
+  </div>
+  <div class="hero-photo">
+    <img src="{{ site.heroImage }}" alt="泡がついた白い車と、夕日が映る水たまり" width="1600" height="1245">
+    {% if newest %}<a class="hero-new" href="{{ newest.url }}"><span class="en" lang="en">New</span><span class="t">{{ newest.data.title.split("｜")[0] | phrase | safe }}</span></a>{% endif %}
+  </div>
+</div></section>
+
+<div class="wash-band" aria-label="洗車の流れ。洗う、流す、仕上げる、拭き上げる"><div class="wash-band-track">
+  <p><b lang="en">Wash</b><span>洗う</span></p>
+  <p><b lang="en">Rinse</b><span>流す</span></p>
+  <p><b lang="en">Coat</b><span>仕上げる</span></p>
+  <p><b lang="en">Dry</b><span>拭き上げる</span></p>
+</div></div>
+
+<section class="block" id="notes"><div class="block-inner">
+  <header class="section-head"><h2 lang="en">Notes</h2><p>新しい記事</p></header>
+  {% if collections.articles.length %}
+  <ul class="note-list">
+    {% for a in collections.articles %}
+    {% set parts = a.data.title.split("｜") %}
+    <li><a class="note-card" href="{{ a.url }}">
+      {% if a.data.image %}<img src="{{ a.data.image }}" alt="" width="1200" height="800" loading="lazy" style="object-position: {{ a.data.imagePosition or '50% 50%' }}">{% endif %}
+      {% if a.data.cardTag %}<span class="note-tag">{{ a.data.cardTag }}</span>{% endif %}
+      <span class="note-title">{{ parts[0] | phrase | safe }}</span>
+      {% if parts[1] %}<span class="note-sub">{{ parts[1] | phrase | safe }}</span>{% endif %}
+      {% if a.data.cardSpecs %}<dl class="note-spec">{% for s in a.data.cardSpecs %}<div><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>{% endfor %}</dl>{% endif %}
+      <span class="note-date">{{ a.date | dotDate }}</span>
+    </a></li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>記事は準備中です。もう少しお待ちください。</p>
+  {% endif %}
+</div></section>
+
+<section class="block on-pine"><div class="block-inner">
+  <header class="section-head"><h2 lang="en">Index</h2><p>話題から探す</p></header>
+  <ul class="index-words">
+    {% for w in site.indexWords %}
+    <li><a href="{{ w.url }}"><span class="en" lang="en">{{ w.en }}</span><span class="ja">{{ w.ja }}</span></a></li>
+    {% endfor %}
+  </ul>
+</div></section>
+
+<section class="way-block">
+  <img src="/img/cleaning-bucket.jpg" alt="" width="1600" height="1108" loading="lazy">
+  <div class="way-veil"></div>
+  <div class="way-inner">
+    <header class="section-head"><h2 lang="en">My way</h2><p>このサイトの書き方</p></header>
+    <div class="way-body">
+      <p class="way-lines"><span>月1回くらい、自分で洗車しています。</span><span>感想は、自分が使ってみた感覚です。</span><span>商品の情報は、メーカーの公式ページで確認しています。</span></p>
+      <a class="way-link" href="/about/">運営者情報・広告について</a>
+    </div>
   </div>
 </section>
-
-<h2 class="section-title">新しい記事</h2>
-{% if collections.articles.length %}
-<ul class="card-list">
-  {% for a in collections.articles %}
-  {% set parts = a.data.title.split("｜") %}
-  <li class="card">
-    <a href="{{ a.url }}">
-      <span class="card-thumb"{% if a.data.image %} style="background-image: url('{{ a.data.image }}'); background-position: {{ a.data.imagePosition or '65% 50%' }}"{% endif %}>
-        {% if not a.data.image %}<span class="card-thumb-logo" aria-hidden="true">{% include "logo-kdr.svg" %}</span>{% endif %}
-      </span>
-      <span class="card-body">
-        <span class="card-title">{{ parts[0] }}</span>
-        {% if parts[1] %}<span class="card-sub">{{ parts[1] }}</span>{% endif %}
-        <span class="meta">{{ a.date | jpDate }}</span>
-      </span>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>記事は準備中です。もう少しお待ちください。</p>
-{% endif %}

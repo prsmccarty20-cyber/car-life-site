@@ -2,6 +2,12 @@
 title: カーシャンプー2つを使い比べ｜迷ったらシュアラスター、たっぷり使うならアワアワ
 description: シュアラスター カーシャンプー1000とプロスタッフ アワアワ カーシャンプー2Lを、実際に使っています。泡や汚れ落ちの感想、フォームガンに入れるときの分量、どんな人にどっちが向いているかをまとめました。
 date: 2026-10-28
+cardTag: シャンプー Shampoo
+cardSpecs:
+  - label: 今のメイン
+    value: シュアラスター
+  - label: 内容量
+    value: 1000mL と 2000mL
 image: /img/foam-suv.jpg
 imagePosition: 50% 50%
 imageCredit: 写真：Bulat843（Pexels）

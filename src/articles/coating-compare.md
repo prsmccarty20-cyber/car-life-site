@@ -2,7 +2,15 @@
 title: 洗車後のコーティング剤4つを使い分け｜初心者に1本すすめるならICE
 description: DETAIL ARTIST ICE、レインドロップ ゴールドグロス、ビギナーズラック、CCウォーターゴールドを実際に使っています。使い道ごとの使い分けと感想、メーカーが示す撥水の持続期間と、使ってみた感覚の違いをまとめました。
 date: 2026-10-28
-image: /img/car-care-items.webp
+cardTag: コーティング Coating
+cardSpecs:
+  - label: 紹介している数
+    value: 4つ
+  - label: ICEの撥水
+    value: 自分の感覚でひと月くらい
+image: /img/cleaning-bucket.jpg
+imageCredit: 写真：Ellie Burgin（Pexels）
+imageCreditUrl: https://www.pexels.com/ja-jp/photo/3177257/
 hasAds: true
 sources:
   - name: ソフト99公式「レインドロップ ゴールドグロス」
