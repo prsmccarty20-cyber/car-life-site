@@ -48,6 +48,12 @@ body { margin: 0; }
 .wash-band b { font-family: var(--font-display); font-size: 34px; line-height: 1; font-weight: 600; letter-spacing: -.01em; }
 .wash-band p { margin: 0; }
 .wash-band span { font-size: 13px; font-weight: 500; margin-left: 6px; }
+/* スマホでは2行×2列にして、Dryまで見えるようにする */
+@media (max-width: 639px) {
+  .wash-band-track { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 16px; width: auto; }
+  .wash-band b { font-size: 30px; }
+  .wash-band span { display: block; margin: 4px 0 0; }
+}
 
 /* 区切り */
 .block { padding: var(--space-6) var(--space-4); }
@@ -72,6 +78,7 @@ body { margin: 0; }
 /* もくじ */
 .on-pine { background: var(--pine); color: var(--on-pine); }
 .on-pine .section-head p { color: var(--on-pine-muted); }
+.index-head { text-align: center; }
 .index-words { list-style: none; margin: 0; padding: 0; text-align: center; }
 .car-root .index-words a { display: block; padding: 14px 0; color: var(--on-pine); text-decoration: none; }
 .index-words .en { display: block; font-size: 44px; line-height: 1.05; font-weight: 300; letter-spacing: -.02em; }

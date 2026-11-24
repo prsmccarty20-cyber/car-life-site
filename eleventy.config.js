@@ -72,6 +72,8 @@ export default function (eleventyConfig) {
   // 題名だけに言葉の切れ目を入れる（本文の処理とは別）
   eleventyConfig.addFilter("phrase", (value) =>
     addBreaks(String(value)).replace(/使い<wbr>(比べ|分け)/g, "使い$1")
+      // 「カーシャンプー2つ」のように、カタカナのすぐあとの数字の前でも折り返せるようにする
+      .replace(/([ァ-ヶー])(\d)/g, "$1<wbr>$2")
   );
 
   return {
