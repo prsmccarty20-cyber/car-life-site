@@ -57,6 +57,9 @@ export default function (eleventyConfig) {
     api.getFilteredByGlob("src/articles/*.md").sort((a, b) => b.date - a.date)
   );
 
+  // 日付を「2026-10-26」の形にする（サイトマップ用）
+  eleventyConfig.addFilter("isoDate", (value) => new Date(value).toISOString().slice(0, 10));
+
   // 日付を「2026年10月26日」の形にする
   eleventyConfig.addFilter("jpDate", (value) => {
     const d = new Date(value);

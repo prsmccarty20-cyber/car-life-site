@@ -1,6 +1,7 @@
 {
   "name": "KDRのクルマノート",
   "description": "車の維持費・ガソリン代・カー用品を、初心者向けに分かりやすく整理するサイトです。",
+  "url": "https://car-life-site.prs-mccarty-20.workers.dev",
   "author": "Kudari",
   "category": "クルマ",
   "accent": "#0A5A6B",
