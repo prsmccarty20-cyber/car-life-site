@@ -1,6 +1,6 @@
 ---
 title: 洗車後のコーティング剤4つを使い分け｜初心者に1本すすめるならICE
-description: DETAIL ARTIST ICE、レインドロップ ゴールドグロス、ビギナーズラック、CCウォーターゴールドを実際に使っています。使い道ごとの使い分けと感想、メーカーが示す撥水の持続期間と、使ってみた感覚の違いをまとめました。
+description: DETAIL ARTIST ICE、レインドロップ ゴールドグロス、ビギナーズラック、CCグロスゴールドを実際に使っています。使い道ごとの使い分けと感想、メーカーが示す撥水の持続期間と、使ってみた感覚の違いをまとめました。
 date: 2026-10-28
 cardTag: コーティング Coating
 cardSpecs:
@@ -19,8 +19,8 @@ sources:
   - name: ながら洗車公式ブログ「ビギナーズラックの説明書」
     url: https://nagaracarwash.com/blogs/news/beginners-luck-instruction-manual-quick-detailer
     checked: 2026-10-28
-  - name: プロスタッフ公式「CCウォーターゴールド 200」
-    url: https://prostaff-jp.com/products/s122/
+  - name: プロスタッフ公式「CCグロスゴールド ホイールコーティング」
+    url: https://prostaff-jp.com/products/s128/
     checked: 2026-10-28
 ---
 
@@ -35,7 +35,7 @@ sources:
 | 洗車後のボディ | **DETAIL ARTIST ICE** | 手軽さと撥水の実感がいちばん。香りもいい |
 | 洗車後のボディ | ソフト99 レインドロップ ゴールドグロス | しっかり撥水する |
 | ちょっとした汚れ・車内 | ながら洗車 ビギナーズラック | 鳥のフンなどを部分的に落とすときに |
-| ホイール | プロスタッフ CCウォーターゴールド | 濡れたまま使えて、撥水も強い |
+| ホイール | プロスタッフ CCグロスゴールド | 濡れたまま使えて、汚れがつきにくい |
 
 **初心者に1本だけすすめるなら、ICE**です。理由は、施工性（作業のしやすさ）が抜群なのと、香りがよくて洗車が楽しくなるからです。めんどくさがりの人には最高だと思います。
 
@@ -143,13 +143,13 @@ msmaflink({"n":"【ながら洗車】ビギナーズラック『 あっという
 </div>
 {% endraw %}
 
-## CCウォーターゴールド：ホイール用に
+## CCグロスゴールド：ホイール用に
 
-もともとは**ホイール用**として買いました。濡れたまま使える手軽さと、強い撥水が気に入っています。ホイールでの撥水の持続は、自分の感覚では**ひと月くらい**です（メーカーの公式ページには、持続期間の記載がありませんでした）。
+**ホイール用**に使っています。洗ったあと、濡れたまま吹きかけて、そのまま拭き上げるだけなので使いやすいです。汚れがつきにくくなるのも気に入っています。撥水のもちは、自分の感覚では**2か月くらい**です（メーカーの公式ページには、持続期間の記載がありませんでした）。
 
-メーカーの公式ページでは、ボディ用のコーティング剤で、窓ガラス・ヘッドライト・ホイール・車内のダッシュボードなどにも使える、と案内されています。ホイールに使うときは、直接吹きかけるより**マイクロファイバークロスに吹きつけてから塗る**と作業しやすい、とも書かれています。
+メーカーの公式ページでは、ホイール用のコーティング剤で、洗車後に濡れたままスプレーして拭くだけで使える、と案内されています。乾いた状態でも使えて、重ね塗りもできるそうです。ブラック・シルバー・メッキなど、いろいろなホイールの塗装に使えると書かれています。
 
-<mark class="pick-mark">濡れたまま使える手軽さと、強い撥水が気に入っています。</mark>
+<mark class="pick-mark">濡れたまま吹きかけて、拭き上げるだけ。使いやすいです。</mark>
 
 {% raw %}
 <div class="item-pick">
@@ -161,9 +161,9 @@ b[a]=b[a]||function(){arguments.currentScript=c.currentScript
 c.getElementById(a)||(d=c.createElement(f),d.src=g,
 d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
 (window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"プロスタッフ(Prostaff) 洗車用品 ガラス系ボディーコーティング剤 CCウォーターゴールド 200ml スプレー S122","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ibuki-shop\/cabinet\/r_2026030213","p":["\/20260504102151_111_1.jpg","\/20260504102151_111_2.jpg","\/20260504102151_111_3.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ibuki-shop\/20260504102151_111\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ibuki-shop\/20260504102151_111\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"j0RtJ","s":"s"});
+msmaflink({"n":"プロスタッフ S128 CCグロスゴールドホイールコーティング","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/geki-car\/cabinet\/12","p":["\/1201263-1.jpg","\/1201263-2.jpg","\/1201263-3.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/geki-car\/1201263\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/geki-car\/1201263\/","a_id":5872434,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"FX0jE","s":"s"});
 </script>
-<div id="msmaflink-j0RtJ">リンク</div>
+<div id="msmaflink-FX0jE">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 </div>
 {% endraw %}
@@ -182,4 +182,4 @@ msmaflink({"n":"プロスタッフ(Prostaff) 洗車用品 ガラス系ボディ�
 - 4つとも「スプレーして拭く」手軽なタイプ。でも**使い道が違う**ので、使い分けている
 - **初心者に1本ならICE**。作業が楽で、香りがいいので洗車が楽しくなる
 - レインドロップは、メーカーの目安は約7か月だけど、自分の感覚では**バチバチなのはひと月くらい**
-- ちょっとした汚れや車内はビギナーズラック、ホイールはCCウォーターゴールド
+- ちょっとした汚れや車内はビギナーズラック、ホイールはCCグロスゴールド
